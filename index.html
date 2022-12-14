@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="/main.css">
+
+</head>
+    <body>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+  <div class='shop'>
+    <header class='shop__header'>
+        <img src={vector} alt="" />
+
+        <p>Casablanca Furniture</p>
+
+        <img src={love} alt="love" />
+    </header>
+
+    <div class='shop__product'>
+        <model-viewer src="../assets/steampunk_camera.glb" alt="A 3D model of a steampunk camera" ar 
+        ar-modes="webxr scene-viewer quick-look" 
+        camera-controls></model-viewer>
+    </div>
+
+    <div class='shop__info'>
+        <div className='shop__info-header'>
+            <div>
+                <p>Casablanca Furniture <br />
+                <span>Sofa</span> <br />
+                <span>$299</span></p>
+            </div>
+
+            <div>
+                <img src={arbutton} alt="" />
+            </div>
+        </div>
+
+        <div class='shop__info-description'>
+            <p>The sleek and stylish Casablanca sofa is the perfect addition to
+                 any modern living room. Made with high-quality materials that offers
+                  both style and comfort. Available in a range of colors, 
+                the Casablanca sofa is sure to elevate your living space.</p>
+        </div>
+    </div>
+
+    <div class='shop__cartt'>
+        <div className='shop__cartt-img'>
+            <img src={cart} alt="" />
+        </div>
+       
+        <p>Add to cart</p>
+    </div>
+
+</div>
+
+  
+
+ 
+</body>

@@ -1,0 +1,66 @@
+.shop {
+  padding: 1rem;
+}
+
+.shop__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop__product {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.shop__product model-viewer {
+  width: 100%;
+  height: 500px;
+}
+
+.shop__product img {
+  width: 100%;
+}
+
+.shop__info {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.shop__info-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop__info-description p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.shop__cartt {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shop__cartt-img {
+  background-color: #000000;
+  width: 20%;
+  padding: .5rem;
+  border-radius: .5rem;
+  margin: 1rem auto;
+}
+/*# sourceMappingURL=main.css.map */
